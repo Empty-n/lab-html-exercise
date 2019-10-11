@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.npm-logo {
+  width: 70px;
+  padding: 10px;
+}
+
+.glass{
+  width: 20px;
+  background-color:rgb(248, 247, 247); 
+  padding: 10px;
+}
+
+input{
+  width: 700;
+  padding: 8px;
+   background-color: rgb(248, 247, 247);
+  font-family: Georgia, serif;
+  font-size: 20px;
+  border: none;
+
+}
+
+.search{
+  text-decoration: none;
+  padding: 8px 30px;
+  border: 0 solid rgb(241, 105, 105); 
+  background-color: red;
+  margin: 0;
+  color: white;
+   
+}
+
+.join{
+  text-decoration: none;
+  padding: 5px 10px;;
+  border: 1px solid rgb(129, 119, 119); 
+  color: black; 
+}
+.login{
+  text-decoration: none;
+  color: black; 
+}
+
+.section1{
+  background-color: rgb(243, 239, 233);
+  height: 700px;
+   display: flex;
+   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; 
+  text-decoration: none;
+}
+
+  
+.section1 article{
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0 30%;
+  }
+  
+  .section1 h1{
+    font-size: 5em;
+    font-weight: bold;
+  }
+
+  .section1 p{
+    font-size: 1em;
+    text-align: center;
+    padding: 0 30%;
+  }
+
+  .section1-red{
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 20px 75px;;
+    border: 0 solid rgb(241, 105, 105); 
+    background-color: #FB3B49;
+    margin-left: 20px;  
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+  }
+
+  .section1-white{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 75px;;
+    border: 0 solid rgb(241, 105, 105); 
+    background-color: white;
+    margin-left: 20px;  
+    color: black;
+  }
+
+  .section1-npm{
+    color: red;
+    text-decoration: underline red;
+    font-weight: bold;
+  }
+
+  .section1-learn{
+    color: red;
+    text-decoration: underline red;
+    font-weight: bold;
+  }
