@@ -89,13 +89,14 @@ input{
   
 .section1 article{
   font-size: 1.2em;
+  font-weight: 200;
   text-align: center;
   padding: 0 30%;
   }
   
   .section1 h1{
     font-size: 5em;
-    font-weight: bold;
+    font-weight: 900;
   }
 
   .section1 p{
@@ -137,3 +138,72 @@ input{
     text-decoration: underline red;
     font-weight: bold;
   }
+
+  .section2{
+    background-color: white;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .section2 img{
+      width: 250px;
+      position: relative;
+      top: -30px; 
+      left: 0px;
+    }
+
+    .section2 h3{
+      font-size: 2.2em;
+      font-weight: bolder;
+    }
+
+    .section2 article{
+      font-size: 1em;
+     text-align: center;
+     padding: 0 auto;
+     margin: 0 200px;
+     font-weight: 100;
+     margin-right: 19%;
+     margin-left: 19%;
+    }
+
+    .section3 div{
+      margin: 0 15px;
+      padding-bottom: 25px ;
+       }
+
+  .section3 { 
+      display: flex;
+      justify-content: space-between;
+      margin: 0 50px;
+  }
+
+  .section3 img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex;
+  }
+
+  .section3 p{
+    font-size: 15px;
+      line-height: 1.8em;
+      font-weight: 300;
+  }
+  
+  .section3 h4{
+  font-size: 15px;
+  justify-content: space-between;
+  color: red;
+  font-weight: 900;
+}
